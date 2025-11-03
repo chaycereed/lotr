@@ -99,11 +99,12 @@ ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
 ```r
 lotr_palette("shire")
 ```
-![Shire Image](man/figures/shire/shire.png)
-![Shire Palette](man/figures/shire/shire-palette.png)
-![Shire Continuous](man/figures/shire/shire-continuous.png)
-![Shire Density](man/figures/shire/shire-density.png)
-![Shire Discrete](man/figures/shire/shire-discrete.png)
+
+<img src="man/figures/shire/shire.png" width="800">
+<img src="man/figures/shire/shire-palette.png" width="800">
+<img src="man/figures/shire/shire-continuous.png" width="800">
+<img src="man/figures/shire/shire-density.png" width="800">
+<img src="man/figures/shire/shire-discrete.png" width="800">
 
 
 ### Mordor
@@ -111,11 +112,11 @@ lotr_palette("shire")
 lotr_palette("mordor")
 ```
 
-![Mordor Image](man/figures/mordor/mordor.png)
-![Mordor Palette](man/figures/mordor/mordor-palette.png)
-![Mordor Continuous](man/figures/mordor/mordor-continuous.png)
-![Mordor Density](man/figures/mordor/mordor-density.png)
-![Mordor Discrete](man/figures/mordor/mordor-discrete.png)
+<img src="man/figures/mordor/mordor.png" width="800">
+<img src="man/figures/mordor/mordor-palette.png" width="800">
+<img src="man/figures/mordor/mordor-continuous.png" width="800">
+<img src="man/figures/mordor/mordor-density.png" width="800">
+<img src="man/figures/mordor/mordor-discrete.png" width="800">
 
 
 ### Rivendell
@@ -123,11 +124,11 @@ lotr_palette("mordor")
 lotr_palette("rivendell")
 ```
 
-![Rivdendell Image](man/figures/rivendell/rivendell.png)
-![Rivdendell Palette](man/figures/rivendell/rivendell-palette.png)
-![Rivendell Continuous](man/figures/rivendell/rivendell-continuous.png)
-![Rivendell Density](man/figures/rivendell/rivendell-density.png)
-![Rivendell Discrete](man/figures/rivendell/rivendell-discrete.png)
+<img src="man/figures/rivendell/rivendell.png" width="800">
+<img src="man/figures/rivendell/rivendell-palette.png" width="800">
+<img src="man/figures/rivendell/rivendell-continuous.png" width="800">
+<img src="man/figures/rivendell/rivendell-density.png" width="800">
+<img src="man/figures/rivendell/rivendell-discrete.png" width="800">
 
 
 ### Minas Morgul
@@ -135,11 +136,11 @@ lotr_palette("rivendell")
 lotr_palette("minasmorgul")
 ```
 
-![Minas Morgul Image](man/figures/minasmorgul/minasmorgul.png)
-![Minas Morgul Palette](man/figures/minasmorgul/minasmorgul-palette.png)
-![Minas Morgul Continuous](man/figures/minasmorgul/minasmorgul-continuous.png)
-![Minas Morgul Density](man/figures/minasmorgul/minasmorgul-density.png)
-![Minas Morgul Discrete](man/figures/minasmorgul/minasmorgul-discrete.png)
+<img src="man/figures/minasmorgul/minasmorgul.png" width="800">
+<img src="man/figures/minasmorgul/minasmorgul-palette.png" width="800">
+<img src="man/figures/minasmorgul/minasmorgul-continuous.png" width="800">
+<img src="man/figures/minasmorgul/minasmorgul-density.png" width="800">
+<img src="man/figures/minasmorgul/minasmorgul-discrete.png" width="800">
 
 
 ### Aragorn
@@ -147,11 +148,11 @@ lotr_palette("minasmorgul")
 lotr_palette("aragorn")
 ```
 
-![Aragorn Image](man/figures/aragorn/aragorn.png)
-![Aragorn Palette](man/figures/aragorn/aragorn-palette.png)
-![Aragorn Continuous](man/figures/aragorn/aragorn-continuous.png)
-![Aragorn Density](man/figures/aragorn/aragorn-density.png)
-![Aragorn Discrete](man/figures/aragorn/aragorn-discrete.png)
+<img src="man/figures/aragorn/aragorn.png" width="800">
+<img src="man/figures/aragorn/aragorn-palette.png" width="800">
+<img src="man/figures/aragorn/aragorn-continuous.png" width="800">
+<img src="man/figures/aragorn/aragorn-density.png" width="800">
+<img src="man/figures/aragorn/aragorn-discrete.png" width="800">
 
 
 ### Samwise
@@ -159,44 +160,44 @@ lotr_palette("aragorn")
 lotr_palette("samwise")
 ```
 
-![Samwise Image](man/figures/samwise/samwise.png)
-![Samwise Palette](man/figures/samwise/samwise-palette.png)
-![Samwise Continuous](man/figures/samwise/samwise-continuous.png)
-![Samwise Density](man/figures/samwise/samwise-density.png)
-![Samwise Discrete](man/figures/samwise/samwise-discrete.png)
+<img src="man/figures/samwise/samwise.png" width="800">
+<img src="man/figures/samwise/samwise-palette.png" width="800">
+<img src="man/figures/samwise/samwise-continuous.png" width="800">
+<img src="man/figures/samwise/samwise-density.png" width="800">
+<img src="man/figures/samwise/samwise-discrete.png" width="800">
 
 ### Legolas
 ```r
 lotr_palette("legolas")
 ```
 
-![Legolas Image](man/figures/legolas/legolas.png)
-![Legolas Palette](man/figures/legolas/legolas-palette.png)
-![Legolas Continuous](man/figures/legolas/legolas-continuous.png)
-![Legolas Density](man/figures/legolas/legolas-density.png)
-![Legolas Discrete](man/figures/legolas/legolas-discrete.png)
+<img src="man/figures/legolas/legolas.png" width="800">
+<img src="man/figures/legolas/legolas-palette.png" width="800">
+<img src="man/figures/legolas/legolas-continuous.png" width="800">
+<img src="man/figures/legolas/legolas-density.png" width="800">
+<img src="man/figures/legolas/legolas-discrete.png" width="800">
 
 ### Gollum
 ```r
 lotr_palette("gollum")
 ```
 
-![Gollum Image](man/figures/gollum/gollum.png)
-![Gollum Palette](man/figures/gollum/gollum-palette.png)
-![Gollum Continuous](man/figures/gollum/gollum-continuous.png)
-![Gollum Density](man/figures/gollum/gollum-density.png)
-![Gollum Discrete](man/figures/gollum/gollum-discrete.png)
+<img src="man/figures/gollum/gollum.png" width="800">
+<img src="man/figures/gollum/gollum-palette.png" width="800">
+<img src="man/figures/gollum/gollum-continuous.png" width="800">
+<img src="man/figures/gollum/gollum-density.png" width="800">
+<img src="man/figures/gollum/gollum-discrete.png" width="800">
 
 ### Sauron
 ```r
 lotr_palette("sauron")
 ```
 
-![Sauron Image](man/figures/sauron/sauron.png)
-![Sauron Palette](man/figures/sauron/sauron-palette.png)
-![Sauron Continuous](man/figures/sauron/sauron-continuous.png)
-![Sauron Density](man/figures/sauron/sauron-density.png)
-![Sauron Discrete](man/figures/sauron/sauron-discrete.png)
+<img src="man/figures/sauron/sauron.png" width="800">
+<img src="man/figures/sauron/sauron-palette.png" width="800">
+<img src="man/figures/sauron/sauron-continuous.png" width="800">
+<img src="man/figures/sauron/sauron-density.png" width="800">
+<img src="man/figures/sauron/sauron-discrete.png" width="800">
 
 ## Examples
 
