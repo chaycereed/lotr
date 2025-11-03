@@ -96,103 +96,107 @@ ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
 ## Palette Previews
 
 ### Shire
+```r
+lotr_palette("shire")
+```
 ![Shire Image](man/figures/shire/shire.png)
 ![Shire Palette](man/figures/shire/shire-palette.png)
 ![Shire Continuous](man/figures/shire/shire-continuous.png)
 ![Shire Density](man/figures/shire/shire-density.png)
 ![Shire Discrete](man/figures/shire/shire-discrete.png)
 
-```r
-lotr_palette("shire")
-```
 
 ### Mordor
+```r
+lotr_palette("mordor")
+```
+
 ![Mordor Image](man/figures/mordor/mordor.png)
 ![Mordor Palette](man/figures/mordor/mordor-palette.png)
 ![Mordor Continuous](man/figures/mordor/mordor-continuous.png)
 ![Mordor Density](man/figures/mordor/mordor-density.png)
 ![Mordor Discrete](man/figures/mordor/mordor-discrete.png)
 
-```r
-lotr_palette("mordor")
-```
 
 ### Rivendell
+```r
+lotr_palette("rivendell")
+```
+
 ![Rivdendell Image](man/figures/rivendell/rivendell.png)
 ![Rivdendell Palette](man/figures/rivendell/rivendell-palette.png)
 ![Rivendell Continuous](man/figures/rivendell/rivendell-continuous.png)
 ![Rivendell Density](man/figures/rivendell/rivendell-density.png)
 ![Rivendell Discrete](man/figures/rivendell/rivendell-discrete.png)
 
-```r
-lotr_palette("rivendell")
-```
 
 ### Minas Morgul
+```r
+lotr_palette("minasmorgul")
+```
+
 ![Minas Morgul Image](man/figures/minasmorgul/minasmorgul.png)
 ![Minas Morgul Palette](man/figures/minasmorgul/minasmorgul-palette.png)
 ![Minas Morgul Continuous](man/figures/minasmorgul/minasmorgul-continuous.png)
 ![Minas Morgul Density](man/figures/minasmorgul/minasmorgul-density.png)
 ![Minas Morgul Discrete](man/figures/minasmorgul/minasmorgul-discrete.png)
 
-```r
-lotr_palette("minasmorgul")
-```
 
 ### Aragorn
+```r
+lotr_palette("aragorn")
+```
+
 ![Aragorn Image](man/figures/aragorn/aragorn.png)
 ![Aragorn Palette](man/figures/aragorn/aragorn-palette.png)
 ![Aragorn Continuous](man/figures/aragorn/aragorn-continuous.png)
 ![Aragorn Density](man/figures/aragorn/aragorn-density.png)
 ![Aragorn Discrete](man/figures/aragorn/aragorn-discrete.png)
 
-```r
-lotr_palette("aragorn")
-```
 
 ### Samwise
+```r
+lotr_palette("samwise")
+```
+
 ![Samwise Image](man/figures/samwise/samwise.png)
 ![Samwise Palette](man/figures/samwise/samwise-palette.png)
 ![Samwise Continuous](man/figures/samwise/samwise-continuous.png)
 ![Samwise Density](man/figures/samwise/samwise-density.png)
 ![Samwise Discrete](man/figures/samwise/samwise-discrete.png)
 
+### Legolas
 ```r
-lotr_palette("samwise")
+lotr_palette("legolas")
 ```
 
-### Legolas
 ![Legolas Image](man/figures/legolas/legolas.png)
 ![Legolas Palette](man/figures/legolas/legolas-palette.png)
 ![Legolas Continuous](man/figures/legolas/legolas-continuous.png)
 ![Legolas Density](man/figures/legolas/legolas-density.png)
 ![Legolas Discrete](man/figures/legolas/legolas-discrete.png)
 
+### Gollum
 ```r
-lotr_palette("legolas")
+lotr_palette("gollum")
 ```
 
-### Gollum
 ![Gollum Image](man/figures/gollum/gollum.png)
 ![Gollum Palette](man/figures/gollum/gollum-palette.png)
 ![Gollum Continuous](man/figures/gollum/gollum-continuous.png)
 ![Gollum Density](man/figures/gollum/gollum-density.png)
 ![Gollum Discrete](man/figures/gollum/gollum-discrete.png)
 
+### Sauron
 ```r
-lotr_palette("gollum")
+lotr_palette("sauron")
 ```
 
-### Sauron
 ![Sauron Image](man/figures/sauron/sauron.png)
 ![Sauron Palette](man/figures/sauron/sauron-palette.png)
 ![Sauron Continuous](man/figures/sauron/sauron-continuous.png)
 ![Sauron Density](man/figures/sauron/sauron-density.png)
 ![Sauron Discrete](man/figures/sauron/sauron-discrete.png)
-
-```r
-lotr_palette("sauron")
-```
 
 ## Examples
 
