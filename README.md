@@ -100,9 +100,9 @@ ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
 lotr_palette("shire")
 ```
 <p align="center">
-  <img src="man/figures/shire/shire.png" width="430">
-  <img src="man/figures/shire/shire-palette.png" width="490">
-  <img src="man/figures/shire/shire-examples.png" width="460">
+  <img src="man/figures/shire/shire.png" width="800">
+  <img src="man/figures/shire/shire-palette.png" width="898">
+  <img src="man/figures/shire/shire-examples.png" width="850">
 </p>
 
 ### Mordor
@@ -122,7 +122,7 @@ lotr_palette("rivendell")
 <p align="center">
   <img src="man/figures/rivendell/rivendell.png" width="800">
   <img src="man/figures/rivendell/rivendell-palette.png" width="898">
-  <img src="man/figures/rivendell/rivendell-examples.png" width="898">
+  <img src="man/figures/rivendell/rivendell-examples.png" width="850">
 </p>
 
 ### Minas Morgul
