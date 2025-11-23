@@ -4,6 +4,8 @@
 
 An R package providing beautiful color palettes inspired by the locations and characters of *The Lord of the Rings*. Perfect for data visualization with both base R and ggplot2.
 
+---
+
 ## Installation
 
 ```r
@@ -32,6 +34,8 @@ Bold, distinct colors perfect for categorical data and groups.
 - **gollum** - Murky grays and greens of the cave dweller
 - **legolas** - Forest greens and yellows of the elven prince 
 - **sauron** -  Greedy golds and reds of the dark lord
+
+---
 
 ## Usage
 
@@ -93,6 +97,8 @@ ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
   scale_fill_lotr("mordor", reverse = TRUE)
 ```
 
+---
+
 ## Palette Previews
 
 ### Shire
@@ -105,6 +111,8 @@ lotr_palette("shire")
   <img src="man/figures/shire/shire-examples.png" width="850">
 </p>
 
+---
+
 ### Mordor
 ```r
 lotr_palette("mordor")
@@ -114,6 +122,8 @@ lotr_palette("mordor")
   <img src="man/figures/mordor/mordor-palette.png" width="898">
   <img src="man/figures/mordor/mordor-examples.png" width="850">
 </p>
+
+---
 
 ### Rivendell
 ```r
@@ -125,6 +135,8 @@ lotr_palette("rivendell")
   <img src="man/figures/rivendell/rivendell-examples.png" width="850">
 </p>
 
+---
+
 ### Minas Morgul
 ```r
 lotr_palette("minasmorgul")
@@ -134,6 +146,8 @@ lotr_palette("minasmorgul")
   <img src="man/figures/minasmorgul/minasmorgul-palette.png" width="898">
   <img src="man/figures/minasmorgul/minasmorgul-examples.png" width="850">
 </p>
+
+---
 
 ### Aragorn
 ```r
@@ -145,6 +159,8 @@ lotr_palette("aragorn")
   <img src="man/figures/aragorn/aragorn-examples.png" width="850">
 </p>
 
+---
+
 ### Samwise
 ```r
 lotr_palette("samwise")
@@ -154,6 +170,8 @@ lotr_palette("samwise")
   <img src="man/figures/samwise/samwise-palette.png" width="898">
   <img src="man/figures/samwise/samwise-examples.png" width="850">
 </p>
+
+---
 
 ### Legolas
 ```r
@@ -165,6 +183,8 @@ lotr_palette("legolas")
   <img src="man/figures/legolas/legolas-examples.png" width="850">
 </p>
 
+---
+
 ### Gollum
 ```r
 lotr_palette("gollum")
@@ -175,6 +195,8 @@ lotr_palette("gollum")
   <img src="man/figures/gollum/gollum-examples.png" width="850">
 </p>
 
+---
+
 ### Sauron
 ```r
 lotr_palette("sauron")
@@ -184,6 +206,8 @@ lotr_palette("sauron")
   <img src="man/figures/sauron/sauron-palette.png" width="898">
   <img src="man/figures/sauron/sauron-examples.png" width="850">
 </p>
+
+---
 
 ## Examples
 
@@ -213,6 +237,8 @@ ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
   theme_minimal()
 ```
 
+---
+
 ## Scale Functions
 
 The package provides multiple ways to use palettes:
@@ -231,17 +257,19 @@ The package provides multiple ways to use palettes:
 
 All scale functions support the `reverse = TRUE` parameter to flip the palette.
 
+---
+
 ## Disclaimer
 
 This package is an unofficial fan creation inspired by the works of J.R.R. Tolkien. It is not affiliated with or endorsed by Middle-earth Enterprises, the Tolkien Estate, or any official rights holders.
+
+---
 
 ## License
 
 MIT License - see LICENSE file for details
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
 
 ## Acknowledgments
 
