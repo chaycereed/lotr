@@ -99,6 +99,56 @@ ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
 
 ---
 
+## Scale Functions
+
+The package provides multiple ways to use palettes:
+
+**Base functions** (flexible):
+- `scale_color_lotr(name, discrete = FALSE/TRUE)`
+- `scale_fill_lotr(name, discrete = FALSE/TRUE)`
+
+**Explicit discrete** (for categorical data):
+- `scale_color_lotr_d(name)`
+- `scale_fill_lotr_d(name)`
+
+**Explicit continuous** (for numeric data):
+- `scale_color_lotr_c(name)`
+- `scale_fill_lotr_c(name)`
+
+All scale functions support the `reverse = TRUE` parameter to flip the palette.
+
+---
+
+## Examples
+
+### Scatter Plot
+```r
+library(ggplot2)
+
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point(size = 3) +
+  scale_color_lotr_d("aragorn") +
+  theme_minimal()
+```
+
+### Heatmap
+```r
+ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
+  geom_tile() +
+  scale_fill_lotr_c("minasmorgul") +
+  theme_minimal()
+```
+
+### Violin Plot
+```r
+ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
+  geom_violin() +
+  scale_fill_lotr_d("sauron") +
+  theme_minimal()
+```
+
+---
+
 ## Palette Previews
 
 ### Shire
@@ -206,56 +256,6 @@ lotr_palette("sauron")
   <img src="man/figures/sauron/sauron-palette.png" width="898">
   <img src="man/figures/sauron/sauron-examples.png" width="850">
 </p>
-
----
-
-## Examples
-
-### Scatter Plot
-```r
-library(ggplot2)
-
-ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
-  geom_point(size = 3) +
-  scale_color_lotr_d("aragorn") +
-  theme_minimal()
-```
-
-### Heatmap
-```r
-ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
-  geom_tile() +
-  scale_fill_lotr_c("minasmorgul") +
-  theme_minimal()
-```
-
-### Violin Plot
-```r
-ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
-  geom_violin() +
-  scale_fill_lotr_d("sauron") +
-  theme_minimal()
-```
-
----
-
-## Scale Functions
-
-The package provides multiple ways to use palettes:
-
-**Base functions** (flexible):
-- `scale_color_lotr(name, discrete = FALSE/TRUE)`
-- `scale_fill_lotr(name, discrete = FALSE/TRUE)`
-
-**Explicit discrete** (for categorical data):
-- `scale_color_lotr_d(name)`
-- `scale_fill_lotr_d(name)`
-
-**Explicit continuous** (for numeric data):
-- `scale_color_lotr_c(name)`
-- `scale_fill_lotr_c(name)`
-
-All scale functions support the `reverse = TRUE` parameter to flip the palette.
 
 ---
 
