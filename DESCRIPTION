@@ -2,7 +2,7 @@ Package: lotr
 Title: Lord of the Rings - Color Palettes
 Version: 0.0.1
 Authors@R: 
-    person("Chayce", "Reed", , "code.jcr@gmail.com", role = c("aut", "cre"))
+    person("Chayce", "Reed", role = c("aut", "cre"))
 Description: Color palettes inspired by the Lord of the Rings, including palettes for the Shire, Mordor, Rivendell, Aragorn, Gollum, and more.
 License: MIT + file LICENSE
 Encoding: UTF-8
