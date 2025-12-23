@@ -267,7 +267,7 @@ This package is an unofficial fan creation inspired by the works of J.R.R. Tolki
 
 ## License
 
-MIT License - see LICENSE file for details
+MIT License. See `LICENSE` for details.
 
 ---
 
